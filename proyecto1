@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+/*
+Ejercicio 1: Con saltos de línea Escribe un programa que presente por pantalla: 
+
+Hola 
+
+Mundo 
+*/
+
+int main(int argc, char *argv[]) {
+	//Primera manera
+	cout<<"Hola"<<endl<<"Mundo"<<endl;
+	//Segunda manera
+	cout<<"Hola\nMundo"<<endl;
+	//Tercera manera
+	cout<<"Hola"<<endl;
+	cout<<"Mundo";
+	return 0;
+}
